@@ -1,0 +1,70 @@
+Exempel 2. ( vattenfall projekt)
+Ett exempel på en vattenfall projekt ( utveckling av ett hotellbokningssystem )
+Här ska jag beskriva hur ett hotellbokningssystem ska utvecklas i vattenfallsmodellen . Ett
+hotellbokningssystem utvecklas för att hantera bokningar och betalning mar och kunder. Det
+finns olika steg som vi behöver tänka på enligt vattenfall projektet:
+1- Kravinsamling: Detta är första steg och här samlas in all information som systemet
+behöver och här kravet fastställs för att undvika ändringar senare i projektet.
+● Vi behöver skriva ner vad systemet behöver göra , och det kan vara bra om vi gör en
+lista för all funktioner såsom rumsbokningar , avbokningar/ ombokning, betalningar
+och kundhanteringar.
+● Vi behöver också att prata med de som kommer att använda sig utav systemet
+såsom hotellchefar, och personalen för att kunna förstå deras behov och deras
+önskemål och även att fråga vad kunderna förväntar sig när de bokar ett rum på
+hotellet.
+● Vi behöver att förklara och beskriva hur systemet ska användas, genom att skapa
+användarfall som gör beskrivning i hur systemet ska användas exempel ( förklarar till
+personalen som jobbar i receptionen hur ska de kunna söka upp ett ledigt rum till
+kunden )
+2- Designfas: Här behöver vi tänka på hur systemet ska byggas, inom olika steg:
+- Att planera hur systemet fungerar, att skapa en bild om systemet och hur alla delar
+ska kunna samarbeta och kopplas ihop. Vi kan bestämma vilka delar som är viktiga
+och vi behöver, ex: betalning, information om lediga rum och etc… vi behöver tänka
+på Teknikvalet såsom programmeringsspråket och vilka verktyg som passar bäst för
+projektet.
+- Vi behöver rita upp systemets delarna, genom att skapa ett diagram som hjälper oss
+att se olika delar av systemet såsom betalningar och bokningar och under varje del
+får man en detaljerad information och beskrivningen. Genom att beskriva vad varje
+del gör så underlättar det för oss och underlättar för kunder att ändra, ta bort
+bokningar. Det ska också vara Flöden mellan olika delar som visar att informationen
+flyttas mellan delarna exempel när det sker en boknings så ska man kunna se att
+bokningen skickas till betalningsmodulen.
+- Databas: att designa databasen genom att planera hur all information ska kunna
+regleras i systemet, exempel på dessa information kunders uppgifter och
+betalningsinformation , vi kan skapa en strukturerad tabeller för att organisera
+informationen som vi behöver, för ex en tabell till bokning och en annan för
+kundinformation. Och det är viktigt att definiera vad som vi behöver lagers i dessa
+tabeller, det kan innehålla priser , olika typer av rum som finns på hotellet och
+bokningsdatum. Vi behöver också att skap relationer mellan dessa tabeller hur ska
+alla tabeller kopplas ihop.
+3- Implementering (kodning) : Här bygger vi systemet steg för steg och varje del behöver
+utvecklas i ordning. Vi behöver bygga upp en hel del klart innan vi går till nästa delen.
+Utvecklingen av moduler sker genom att vi bygger varje modul i taget .
+- kundregistrering: Vi kan skapa en funktion där kunderna ska kunna registrera sig i
+systemet med sina uppgifter och deras önskemål. I det funktionerna underlättar för
+att ha kolla på hur många som bor på hotellet.
+- Tidsbokning/ rumsbokning: vi kan utveckla en funktion där både personal och kunder
+kan gå in och boka ett rum på dessa tider och datumet som de vill. Detta underlättar
+för kunderna att boka ett rum på tiden/datumen som de behöver att bo på hotellet
+och personalen kan ha koll på vilka rum som är bokade och vilka som är lediga.
+- Betalningsmetod och fakturor: vi behöver att skapa en betalningsmodell för att
+kunderna ska kunna betala för de rum som de har bokat antingen betalar de online
+eller på plats innan de checkar in.
+- Att hantera bokningshistorik vi kan utveckla en modul för all information ska kunna
+regleras där, det underlättar för oss att se över gamla bokningar och
+betalningshistorik.
+- Tjänsthantering: i det funktionen kan vi hantera olika extra tjänster såsom kunderna
+kan boka ex behandlingar / spa. Kunderna ska självklart kunna boka olika tjänster
+och personalen på hotellet ska kunna ha koll på det .
+4-Testning: det är viktigt för att kontrollerar om systemet fungerar bra eller inte innan
+lansering, vi gör det i olika steg :
+- Gör en enhet test i implementering, och vi testar varje del av system när den är klart
+byggd, syftet med det att se om allting fungerar bra och om det finns små fel som vi
+behöver fixa och löser det innan den påverkar andra delar av systemet.
+- När alla moduler klarar vi behöver göra en integrationstest, och här dubbelkolla vi om
+alla delar av systemet fungerar ihop , för att säkerställa att alla systems delar funkar
+ihop utan konstigheter.
+- Vi behöver utföras ett systemet för hela applikationen, och det är från början till slut
+genom att testa alla funktioner såsom bokningar , betalningar och annat. Och vi gör
+det för att självklart säkerställa att systemet fungerar som den ska innan den börjar
+användas
