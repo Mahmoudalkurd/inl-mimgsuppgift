@@ -1,0 +1,131 @@
+Inlämningsuppgift 2
+Ett exempel på ett agilt projekt är en personlig träningsapp som jag kommer att använda
+som ett exempel för att förklara hela processen när jag tänker på att göra en plan för att
+bygga upp denna app.
+Planeringsfas :
+Först och främst måste jag planera hur jag ska bygga upp denna träningsapp och därför
+måste jag göra det genom att dela den i olika steg:
+- 1-Identifiera vad appen ska göra och visionen och målet av denna app som jag
+tänker på att bygga upp. Visionen med denna app är att jag skapar en app som
+hjälper användaren med att följa upp sina träningspass och att planera sina
+träningstider. Målet ska vara lättanvänd och syftar på att förbättra träningen hos
+användarna. Och i det steget viktigt att tänka på tre olika saker :
+- • Användning Registrering , att användarna ska kunna skapa kontot och logga in
+för att spara sina information. Jag ska tänka på vad appen behöver för att
+användarna ska kunna använda den och därför måste man ha grundläggande
+funktioner såsom att registrera och logga in i appen , att man kan skapa en
+användarprofil, att man kunna följa olika träningsprogram eller pass.
+- • Träningsprogram: Att lägga upp ett träningsprogram eller hur passet ska utföras
+ska användarna följa upp dem. Och träningsaktiviteter, dessutom ska den innehålla
+bilder och videos för träningar för att underlätta för användarna att använda sig av
+appen och att det finns möjlighet till att koppla fitness enheter till appen exempelvis
+smartklocka.
+- •Betalningar och varukorg, om jag vill sälja träningsapp eller andra produkter, då
+jag ger möjlighet till användarna att kunna lägga till sakerna som de vill köpa till en
+varukorg och då kan dem betala säkert ( längre ner kommer jag att ge olika förslag
+på olika betalningsmetoder)
+2-Dela upp dessa arbetet i små delar eller olika sprintar( exempel vi ge oss 2 veckor
+perioder) för att utveckla användning registrering, eller utveckla det första träningsprogram
+som vi har skapat, och använder oss av exempelvis av Trello eller Asana som en
+planeringsverktyg för att underlättar för oss vad är som vi behöver hålla koll på och vad är
+som saknas och behöver göras.
+3- Här tänkte jag att prioritera vad som är det viktigaste , och det är största nytta sättet för
+användarna, gällande både registrering och träningspass.
+Iteration 1: Här börjar jag med grunderna såsom att skapa registreringssystem och använda
+olika verktyg för att kunna hantera konton såsom Node.js eller Django. Även vi behöver ett
+verktyg för att göra registreringsformuläret, då behöver exempelvis använda ett frontend
+verktyg såsom React or Angular. Och sedan behöver vi tänka att användarna ska kunna
+spara sina information, då behöver vi använda en databas för att kunna spara
+informationerna såsom MongoDB eller PostgreSQL.
+Iteration 2: Utveckla köp och betalningsfunktioner
+Att skapa en funktion ( lägg till varukorg) för att användarna kunna lägga till produkterna som
+de vill köpa eller träningspass, och självklart ger möjlighet till att de ändrar eller tar bort saker
+innan betalning sker.
+Att lägga till betalningsfunktioner såsom Stripe eller Payplay för att göra betalningar säkrare
+och även skapa backend för att kunna ta emot betalningar och användarna får ett
+bekräftelse.
+Att förbättra träningsprogram och lägga till olika detaljer och ge möjlighet att lämna
+omdömen och göra en snygg och enkel designen att använda ( Jag kommer skriva mer
+detaljer i nästkommande steg)
+Iteration 3: vi behöver lägga till mer avancerade funktioner: att snap orderhanteringssystem,
+och gör att användarna ska kunna se sina köp och träningsprogram som de har betalat för
+och få kvittot och dessutom användarna ska kunna följa sina träningspass . Och att lägga till
+sökfunktionen till användarna (sökruta) då kan användarna lätt att hitta olika träningspass ,
+det är viktigt att sökningen ska vara lätt att hitta vad man letar efter och även visar relevanta
+resultat.
+Designen är det viktigt. När det kommer till designen så behöver jag tänka på två saker:
+designa appen och tekniska planen, att designa appen så ska jag rita med enkla bilder hur
+appen ska se ut och hur den fungerar. Det kan vara bra att visa dessa skisser till andra
+personer och höra deras åsikter ( Testa ).
+När det gäller den tekniska planeten för appen så måste jag bestämma vilka verktyg som
+behövs och vilka teknologier som ska användas för att bygga appen.
+Efter dessa steg måste jag tänka på utvecklingen av appen hur ska jag kunna utveckla
+appen man kan göra det i olika steg :
+- Grundfunktionen: målet är att skapa enkla versioner där användaren kan
+registrera sig och logga in på ett enkelt sätt. Uppgifterna i det steget är att
+användarprofiler och designa startsidan.
+- Träningsprogram: målet att lägga funktioner för olika träningsprogram. Uppgifterna
+är att hantera och att skapa ett träningsprogram.
+- Guider och olika anpassningar: målet att lägga till olika anpassningar och
+träningsguider. Uppgifterna är att lägga ut olika videos på träningsövningar och ge
+användare möjlighet att anpassa träningsprogrammet och lägga till
+rekommendationer utifrån användarnas framsteg.
+- Integration och olika påminnelser : målet med detta är att påminna användaren
+om träningen. Att ställa in att appen kan ge signal eller användare få meddelande när
+det är dags att träna. Och att koppla till fitness enheter att appen kan prata med
+smartklockor eller annat som pulsmätare. Och sista ska jag kontrollera om dess
+funktioner fungerar som det ska och lösa problem om den dyker upp.
+Efter utveckling kommer Testning och här ska jag testa appen och göra olika kontroller
+såsom funktionstestning vilket innebär att kontrollera alla nya funktioner och
+integrationstestning genom att kontrollera att alla funktioner funkar ihop. Sedan gör jag en
+Beta testning
+genom att ge användaren möjlighet att använda appen och ge sina åsikter om appen. Jag
+tar emot deras feedback för att förbättra appen på ett bättre sätt.
+Efter testning kommer Lansering och här behöver jag tänka på två olika saker:
+Att publicera appen, genom att ladda upp appen på Google play eller App Store och
+skriver också en kort beskrivning om denna app, ska beskrivningen av appen vara kort och
+tydlig.
+Att marknadsföra: genom att sprida information om appen på sociala medier och att
+berätta om appen i olika kanaler och ger tips för att visa användaren hur de kan komma
+igång med appen.
+Sista steg är underhållning och att uppdatera
+Här behöver jag samla in alla feedback som jag fått av användaren och ta reda på (
+Analysera) vad är det som fungerar bra och vad är det som är mindre bra och behöver
+förbättras även fixa problemet om det uppstod och även support ska finnas alltid för att lösa
+problemet eller om någon användare har nån fråga. I uppdateringen ska jag lägga till nya
+funktioner som matchar användarens behov och efterfrågan, och åtgärder om det finns
+något problem.
+Nyckelkomponenter:
+•Front-end ramverk : det är en del av appen och vad användarna ser och i det
+bygger appen designen och hjälper till att bygga användarens upplevelser och även
+andra olika visuella delarna såsom :
+Angular , vue .js och React: syftet med användningen är att att kunna skapa
+användargränssnittet och där kan användaren logga in och se olika träningsprogram,
+man kan också bygga interaktiva funktioner för att kan visa till användarna
+träningsvideor och att registrera träningspass.
+Front- end ramverk kan också kommunicera med back-end API som hjälper till att
+hämtar och skickar data såsom att göra olika uppdateringar för användarens schema
+och träningspass.
+•Back-end API: syftet med den att sköta alla dokumentations data mellan både
+användarna och databasen , det vill säga att hantera dessa dokument.
+I en personlig träningsapp kan vi använda Node.js och spring Boot för att bygga
+API:et som gör att man kan hantera olika dataförfrågningar och även att hantera
+registreringen av användarna. API:t kan också hantera olika uppdateringar av
+träningsplaner och skickar till användarna tips eller notifieringar .
+•Databasen innehåller olika saker såsom användaruppgifter, olika träningspass och
+program. I en personlig träningsapp. I träningsapp kan vi använda ( MysQL or
+PostgerSQL) detta används för att strukturera datan, exempel som schema och
+träningspass och vidare . ( MongoDB) denna är ett alternativ om man vill hantera
+ostrukturerad förändring av datan, såsom kommentarer eller man vill spara en
+träningspass.
+Appen kommunicerar med databasen via back- end APl:t i fall användare göra en
+uppdatering om sitt mår eller en träningspass.
+● Betalning Gateway och integration : för att göra säkra betalningar för tjänster
+som användarna köper inom appen. Man kan använda ( Paypal , Stripe or
+Braintree) och dessa används för att implementera betalningar i appen. Det
+kan vara ett abonnemang eller köp av produkter som finns i appen eller ett
+träningspass. Syftet med det att hantera säkerheten för betalningar. Även
+appen kan hantera användarens abonnemang och betalningsprocesser och
+skickar faktorer till användarna.
+Ha en trevlig dag! 😊
+// Mahmoud
